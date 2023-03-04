@@ -8,8 +8,8 @@ HS07
 HS08
 HS09
 HS10
-HS13 Aura LED Controller Build-In (Recommand removal, Not included in USBPorts.kext)
-HS14 BRCM20702 Hub Build-In (BCM94360CS2 Bluetooth Controller)
+HS13 Aura LED Controller Build-In (Recommend removal, included in USBPorts.kext)
+HS14 BRCM20702 Hub Build-In (BCM94360NG Bluetooth Controller)
 
 USB 3.0
 SS02 Front

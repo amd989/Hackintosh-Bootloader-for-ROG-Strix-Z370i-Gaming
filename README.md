@@ -1,17 +1,21 @@
 # Hackintosh-Bootloader-for-ROG-Strix-Z370i-Gaming
+Ref: [https://github.com/lslqtz/Hackintosh-Bootloader-for-ROG-Strix-Z370i-Gaming](https://github.com/lslqtz/Hackintosh-Bootloader-for-ROG-Strix-Z370i-Gaming)
+
 Ref: [ROG-STRIX-Z370i-Hackintosh by WenSong-L](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh)  
-Default settings: iMac19,2, No GUI, No Picker, HiDPI (2x), Power Nap On  
-macOS Version: Big Sur 11.3 (Beta, 20E5196f)  
+
+Default settings: iMac19,1, No GUI, No Picker OpenCore 8.9 Release 
+macOS Version: Ventura 13.2.1
 | Hardware | Model |
 | --- | --- |
-| CPU | i3-8100 (XCPM by SSDT-XCPM) |
-| GPU | Intel UHD Graphics 630 (3 DisplayPort connectors, ig-platform-id: 0x3e9b0007) |
-| SSD | Samsung SM961 MZVPW256HEGL (M.2 in use) |
-| Memory | Corsair CM4X16GD3600C18K2D (DDR4 3600MHz 16GB+16GB, Running at 3600MHz) |
-| Soundcard | Onboard Realtek ALC1220 (alc-layout-id: 3) |
+| CPU | i5-8600K |
+| iGPU | Intel UHD Graphics 630 (1 DisplayPort/1 HDMI connectors, ig-platform-id: 0x0300913E) |
+| dGPU | AMD Radeon RX 5600 XT (3 DisplayPorts/1 HDMI connectors) |
+| SSD | Samsung 970 Evo Plus (M.2 in use) |
+| Memory | G.Skill F4-3200C16D-16GTZR Trident Z (DDR4 3200MHz 8GB+8GB, Running at 3200MHz) |
+| Soundcard | Onboard Realtek ALC1220 (alc-layout-id: 1) |
 | Motherboard | ASUS ROG Strix Z370i Gaming |
-| Wi-Fi Card | Apple BCM94360CS2 (2 antennas, Bluetooth 4.0, 802.11a/b/g/n/ac, Simultaneous dual band (2.4GHz & 5GHz), HT80 with 2x2 MIMO, used by MacBook Air (Mid 2013-2017)) |
-| Computer Case | MetalFish S3 |
+| Wi-Fi Card | Fenvi Broadcom BCM94360NG M.2 (2 antennas, Bluetooth 4.0, 802.11a/b/g/n/ac, Simultaneous dual band (2.4GHz & 5GHz), HT80 with 2x2 MIMO) |
+
 
 | BIOS Setting | Value |
 | --- | --- |
@@ -36,4 +40,4 @@ macOS Version: Big Sur 11.3 (Beta, 20E5196f)
 
 ## Not Work
 ### OpenCore
-DRM doesn't work
+DRM maybe works
