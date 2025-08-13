@@ -3,11 +3,11 @@ Ref: [https://github.com/lslqtz/Hackintosh-Bootloader-for-ROG-Strix-Z370i-Gaming
 
 Ref: [ROG-STRIX-Z370i-Hackintosh by WenSong-L](https://github.com/WenSong-L/ROG-STRIX-Z370i-Hackintosh)  
 
-Default settings: iMac19,1, No GUI, No Picker OpenCore 8.9 Release 
+Default settings: iMac19,1, GUI, Picker, OpenCore 1.0.5 Release 
 macOS Version: Ventura 13.2.1
 | Hardware | Model |
 | --- | --- |
-| CPU | i5-8600K |
+| CPU | i5-8600K (Coffee lake) |
 | iGPU | Intel UHD Graphics 630 (1 DisplayPort/1 HDMI connectors, ig-platform-id: 0x0300913E) |
 | dGPU | AMD Radeon RX 5600 XT (3 DisplayPorts/1 HDMI connectors) |
 | SSD | Samsung 970 Evo Plus (M.2 in use) |
